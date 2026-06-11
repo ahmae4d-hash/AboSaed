@@ -13,13 +13,7 @@
 }
 .loader.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
 .loader__lottie { width: clamp(100px, 25vw, 160px); height: clamp(100px, 25vw, 160px); }
-.loader__text {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(11px, 2vw, 13px);
-  letter-spacing: 4px;
-  color: rgba(123,47,255,0.9);
-  text-transform: uppercase;
-}
+
 .dots::after {
   content: '';
   animation: dotdot 1.4s steps(4, end) infinite;
